@@ -21,7 +21,7 @@ rad=st.sidebar.radio("Menu",["Homepage","History of currency","History of curren
 if rad=='Homepage':
   
   image = Image.open("wp3624608.webp")
-  st.snow()
+  
   st.image(image, caption='Crypto Currency Prediction')
 
 elif rad == "History of currency":
