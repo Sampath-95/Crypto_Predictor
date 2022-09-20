@@ -29,9 +29,7 @@ elif rad == "History of currency":
   eth_df = yf.download(currency,start_date, today)
   eth_df.reset_index(inplace=True)
   # eth_df.columns
-
   df = eth_df[["Date", "Open"]]
-
   new_names = {
       "Date": "ds", 
       "Open": "y",
